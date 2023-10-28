@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Authentication</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        body{
+          margin: 0;
+          padding: 0;
+        }
+        .container-fluid {
+            height: 100vh;
+            background: url(bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .parent {
+            display: flex;
+        }
+
+        .child1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 98vh;
+            /* background-color: aquamarine; */
+        }
+
+        .child1 img {
+            height: 40rem;
+        }
+
+        .child2{
+            height: 20rem;
+            width: 30rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(194, 194, 191);
+            opacity: 0.8;
+            border-radius: 10px;
+            margin-top: 10rem;
+        }
+        .name {
+            border: 2px solid black;
+            width: 17rem;
+            padding: 6px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border: none;
+        }
+
+        .password {
+            border: 2px solid black;
+            width: 17rem;
+            padding: 6px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border: none;
+        }
+
+        button {
+            border: 2px solid black;
+            background-color: rgb(87, 87, 245);
+            border-radius: 5px;
+            padding: 5px;
+            font-weight: 600;
+            border: none;
+        }
+
+        button:hover {
+            background-color: rgb(72, 72, 243);
+
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="col-sm-12 parent">
+            <div class="col-sm-6 child1">
+                <img src="login1.jpg" alt="Image Loading">
+            </div>
+            <div class="col-sm-6 child2">
+                <input class="name" type="email" placeholder="Enter your email-id" id="mail" >
+                <input class="password" type="password" placeholder="Password" id="pass" >
+                <button onclick="login()">Login</button>
+                <marquee> Correct password is "suyash"</marquee>
+            </div>
+        </div> 
+</body>
+<script src="script.js"></script>
+</html>
