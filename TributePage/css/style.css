@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+.leftnav{
+    box-shadow: 7px 7px 3px blue;
+    padding: 10px;
+    margin-top:9px;
+    border-radius: 10px;
+    color: white;
+}
+nav{
+    height: 155vh;
+    background: url("/TributePage/img/imag1.jpg");  
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+nav ul li{
+    list-style:none;
+    font-size: 1.5rem;
+}
+
+
+
+.rightnav{
+
+    display: flex;
+    margin-left: 58rem;
+
+}
+.rightnav a{
+    text-decoration: none;
+    border: 2px solid rgb(107, 107, 253);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 8px;
+}
+.rightnav a li{
+    font-size: 1.1rem;
+    
+}
+.rightnav a:hover{
+    background-color: rgb(72, 74, 175);
+}
+
+
+.container2{
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.container2 .box{
+    display: flex;
+    flex-direction: column;
+}
+.container2 h1{
+    font-size: 4rem;
+    text-shadow: 3px 3px 3px white;
+    margin-bottom: 0;
+}
+.container2 p{
+    margin-top: 0;
+    font-size: 2rem;
+    color: white;
+}
+#para{
+    float: left;
+    display: inline;
+    width: 35rem;
+    font-size: 1.4rem;
+    padding: 5px;
+    text-align: justify;
+}
